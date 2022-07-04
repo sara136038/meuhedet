@@ -1,0 +1,27 @@
+@font-face {
+  font-family: FbTypoPas;
+  src: url("./assets/fonts/he_fbtypopas_regular.ttf");
+}
+
+@font-face {
+  font-family: FbTypoPas;
+  src: url("./assets/fonts/he_fbtypopas_bold.ttf");
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+}
+
+html,
+body {
+  font-family:FbTypoPas, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color:white ;
+  background-position: right;
+  background-repeat: no-repeat;
+}
